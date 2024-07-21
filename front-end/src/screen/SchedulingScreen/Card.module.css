@@ -1,0 +1,23 @@
+.CardBox {
+    padding: 0px 10px 10px 0px;
+    width: 100%;
+}
+
+@media (min-width: 481px) and (max-width: 850px) {
+    .CardBox {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    .CardBox {
+        width: 33.3333%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .CardBox {
+        width: 25%;
+    }
+}
